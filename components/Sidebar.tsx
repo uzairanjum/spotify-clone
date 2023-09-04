@@ -44,14 +44,16 @@ const SideBar :React.FC<SideBarProps> = ({children}) => {
 
     return (   
     <div className="flex-h-full ">
-        <div className="hidden md:flex flex-col gap-y-2 bg-black h-full w-[300px] p-2 "></div>
+        <div className="hidden md:flex flex-col gap-y-2 bg-black h-full w-[300px] p-2 ">
         <Box  >
             Sidebar navigation
         </Box>
         <Box className="overflow-y-auto h-full">
             Song Library
         </Box>
-        {children}
+
+        </div>
+     
         </div>
         );
 }
