@@ -20,7 +20,7 @@
 
 ###
 
-<p align="left">I'm Uzair Anjum and i'm a softwarre engineer from lahore, pakistan....<br><br>- 🔭 I’m working as full stack engeenier at Netsol Technologies<br><br>- ⚡ In my free time I learn new techniques to solved the problems<br><br>Explore, collaborate, and contribute to this project. Together, we're building something amazing! 💻🌟<br><br>Let's code and create together! 🙌</p>
+<p align="left">I'm Uzair Anjum and i'm a software engineer from Lahore, Pakistan....<br><br>- 🔭 I’m working as full stack engeenier at Netsol Technologies<br><br>- ⚡ In my free time I learn new techniques to solved the problems<br><br>Explore, collaborate, and contribute to this project. Together, we're building something amazing! 💻🌟<br><br>Let's code and create together! 🙌</p>
 
 ###
 

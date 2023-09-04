@@ -20,7 +20,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={font.className}>
         <SideBar>
-
         {children}
         </SideBar></body>
     </html>
