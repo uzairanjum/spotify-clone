@@ -1,5 +1,15 @@
+import Header from "@/components/Header"
+
 export default function Home() {
   return (
-    <div className="text-green-500  ">Hello Spotify</div>
+    <div 
+    className="
+    bg-neutral-900
+    rounded-lg
+    h-full
+    w-full
+    overflow-y-auto
+    p-3
+    " ><Header/></div>
   )
 }
