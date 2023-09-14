@@ -9,7 +9,7 @@ import Button from './Button'
 
 
 interface HeaderProps {
-    children:React.ReactNode;
+    children?:React.ReactNode;
     className?:string;
 }
 
