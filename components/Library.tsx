@@ -11,9 +11,9 @@ const Library = () => {
 
   return (
     <div className={twMerge(`flex flex-col`)}>
-        {/* your library row div ==>div + icon (justify-between) */}
+
       <div className="flex items-center justify-between px-5 pt-5 ">
-        <div className="inline-flex items-center gap-x-2">
+      <div className="inline-flex items-center gap-x-2">
           <TbPlaylist
             size={26}
             className="text-neutral-400 font-medium text-md"

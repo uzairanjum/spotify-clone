@@ -9,7 +9,9 @@ export default function Home() {
     h-full
     w-full
     overflow-y-auto
-    p-3
-    " ><Header/></div>
+
+    " >
+      <Header/>
+    </div>
   )
 }
