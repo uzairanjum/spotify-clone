@@ -21,7 +21,8 @@ export default function RootLayout({
       <body className={font.className}>
         <SideBar>
         {children}
-        </SideBar></body>
+        </SideBar>
+        </body>
     </html>
   )
 }
@@ -29,4 +30,3 @@ export default function RootLayout({
 // Here's an explanation of what's happening:
 // RootLayout is a React component that is intended to serve as a layout or wrapper for other components in your Next.js application. It wraps its child components in a structure that includes an HTML document with an <html> tag and a <body> tag.
 // The { children } syntax in the function parameter is known as destructuring. In this context, it means that the RootLayout component expects an object as its argument, and that object should have a property named children. The children property should be of type React.ReactNode.
-// Inside the RootLayout component, the children prop is used to render the content that is passed to it. It is placed within the <body> element, which means that any components or content wrapped by RootLayout will be rendered inside the <body> tag when this component is used.

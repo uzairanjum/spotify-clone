@@ -23,42 +23,45 @@ const Header:React.FC<HeaderProps> = ({children, className}) => {
     return (  <div className={twMerge(`h-fit bg-gradient-to-b from-emerald-800 p-6`, className)}>
          {/* is this below div we can add foward and backword button*/}
         <div className="w-full mb-4 flex items-center justify-between">
+
               {/* left-side is this below div we use for web screen view*/}
-            <div className="hidden md:flex gap-x-2 items-center justify-center">
-                <button onClick={ () => {router.back}} className="rounded-full bg-black flex items-center justify-center cursor-pointer hover:opacity-75 transition">
-                    <RxCaretLeft size ={35} className="text-white"/>
-
-                </button>
-                <button onClick={ () => {router.forward()}} className="rounded-full bg-black flex items-center justify-center cursor-pointer hover:opacity-75 transition">
-                    <RxCaretRight size ={35} className="text-white"/>
-
-                </button>
-               
-            </div>
+        <div className="hidden md:flex gap-x-2 items-center justify-center">
+            <button onClick={ () => {router.back}} className="rounded-full bg-black flex items-center justify-center cursor-pointer hover:opacity-75 transition">
+                <RxCaretLeft size ={35} className="text-white"/>
+            </button>
+            <button onClick={ () => {router.forward()}} className="rounded-full bg-black flex items-center justify-center cursor-pointer hover:opacity-75 transition">
+                <RxCaretRight size ={35} className="text-white"/>
+            </button>
+        </div>
 
             {/* left-side  is this below div we use for mobile screen view*/}
-           <div className="flex md:hidden gap-x-2 items-center ">
-            <button className="rounded-full bg-white p-2 flex justify-center items-center cursor-pointer hover:op transition">
-            <HiHome size={20} className="text-black"/>
-            </button>
-            <button className="rounded-full bg-white p-2 flex justify-center items-center cursor-pointer hover:op transition">
-                <BiSearch className="text-black"  size={20}/>
-            </button>
-            
+        <div className="flex md:hidden gap-x-2 items-center ">
+        <button className="rounded-full bg-white p-2 flex justify-center items-center cursor-pointer hover:opacity-75  transition">
+           <HiHome size={20} className="text-black"/>
+        </button>
+        <button className="rounded-full bg-white p-2 flex justify-center items-center cursor-pointer hover:opacity-75  transition">
+            <BiSearch className="text-black"  size={20}/>
+        </button>
+        </div>
 
-            
-           </div>
-
-           {/* right-side  <div className="hidden md:flex ">768px or wider</div>
-           <div  className="md:hidden ">below than 768px </div> */}
 
         <div className="flex justify-between items-center gap-x-4">
             <>
-            <div className=""><Button/></div>
+            <div >
+                <Button onClick ={()=> {}} className = "bg-transparent text-neutral-300 font-medium ">
+                    Sign Up
+                </Button>
+            </div>
+            <div >
+                <Button onClick ={()=> {}}  className = "bg-white px-6 py-2font-medium ">
+                    Log in
+                </Button>
+            </div>
             </>
 
         </div>
         </div>
+        {children}
     </div>);
 }
  
